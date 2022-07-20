@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* header start */
+header {
+  width: 100%;
+  height: 857px;
+  background-color: #e9e9f9;
+}
+.main {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  top: 20px;
+  left: 380px;
+}
+.header-icon {
+  margin-left: -70px;
+}
+.magistr-text {
+  font-weight: 500;
+  font-size: 24px;
+  color: #12141d;
+  margin-left: 70px;
+  margin-top: -45px;
+}
+.nav_ul {
+  display: flex;
+}
+.nav_div .nav_ul .nav_link {
+  list-style-type: none;
+  position: relative;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  left: 640px;
+  top: -22px;
+}
+.nav_div .nav_ul .nav_link a {
+  display: flex;
+  color: #12141d;
+  text-decoration: none;
+}
+.btn {
+  width: 155px;
+  height: 56px;
+  background-color: #111e52;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-left: 1050px;
+  margin-top: -60px;
+  padding-left: 50px;
+}
+.btn_kirish {
+  position: relative;
+  color: #fff;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  top: 20px;
+}
+.text1 {
+  color: #12141d;
+  font-size: 62px;
+  font-weight: 500;
+  margin: 233px 312px;
+}
+.text2 {
+  color: #ffc947;
+}
+.text3 {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 80%;
+  width: 636px;
+  height: 64px;
+  margin: -193px 312px;
+}
+.btn-2 {
+  width: 360px;
+  height: 64px;
+  background-color: #ffc947;
+  margin-left: 310px;
+  margin-top: 230px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.ariza {
+  color: #12141d;
+  font-size: 18px;
+  font-weight: 600;
+  background: none;
+  border: none;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.ariza::after {
+  content: "";
+  background: url(../images/arrow-narrow-right.svg) no-repeat;
+  width: 30px;
+  height: 25px;
+  margin-left: 140px;
+  display: inline-block;
+}
+
+.student-img {
+  position: relative;
+  margin-left: 830px;
+  margin-top: -500px;
+  z-index: 1;
+  top: -10px;
+}
+.ellipse-img {
+  margin-left: 850px;
+  margin-top: -800px;
+}
+/* header end */
+
+/* article-1 start */
+
+.text-article {
+  margin-left: 550px;
+  margin-top: 100px;
+}
+.h2-text {
+  font-weight: 500;
+  font-size: 46px;
+  width: 678px;
+  height: 144px;
+  text-align: center;
+  margin-left: 100px;
+}
+.card-menu {
+  margin-left: 312px;
+  margin-top: 40px;
+}
+.card {
+  width: 416px;
+  height: 280px;
+  background-color: #f9f9ff;
+  display: inline-block;
+  margin-left: 20px;
+}
+.icon {
+  margin-left: 176px;
+  padding-top: 32px;
+}
+/* cards start */
+.card-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #12141d;
+  text-align: center;
+  padding-top: 25px;
+}
+.card-mini-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #12141d;
+  width: 356px;
+  height: 56px;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+/* cards end */
+
+/* youtube section start */
+.qabul {
+  font-size: 56px;
+  font-weight: 500;
+  text-align: left;
+}
+.qabul-text {
+  height: 84px;
+  width: 569px;
+  margin-left: 633px;
+  margin-top: -116px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.img-video {
+  margin-top: 90px;
+}
+/* youtube section end */
+
+/* article-2 start */
+.ariza-text {
+  height: 144px;
+  width: 756px;
+  margin-top: 200px;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 300px;
+}
+.menu2 {
+  width: 100%;
+  height: 632px;
+  background-color: #f9f9ff;
+  margin-top: 80px;
+}
+
+.numbers-img {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.card-numbers {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 30px;
+  height: 64px;
+  width: 303px;
+  margin-left: 300px;
+}
+.card-text-2 {
+  height: 72px;
+  width: 303px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.card-number2 {
+  margin-left: 400px;
+  margin-top: -95px;
+}
+.card-number3 {
+  margin-left: 800px;
+  margin-top: -95px;
+}
+/* article-2 end */
+
+
+
+/* footer start */
+.footer-fon {
+  width: 100%;
+  height: 372px;
+  background-color: #313131;
+  padding-left: 312px;
+  padding-top: 64px;
+  margin-top: 80px;
+}
+.magistr-footer {
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+  margin-left: 74px;
+  margin-top: -50px;
+}
+.text-footer {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  height: 60px;
+  width: 416px;
+  margin-top: 50px;
+  color: #fff;
+}
+.line {
+  width: 1296px;
+  height: 2px;
+  background-color: #414141;
+  margin-top: 40px;
+}
+.vakansiya {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+  height: 16px;
+  width: max-content;
+  margin-top: 36px;
+}
+
+.link {
+  margin-left: 551px;
+  margin-top: -250px;
+}
+.footer-link {
+  list-style-type: none;
+  width: 76px;
+  height: 37px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-link a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-linkk {
+  list-style-type: none;
+  width: max-content;
+  height: 37px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-linkk a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-linkkk {
+  list-style-type: none;
+  width: max-content;
+  height: 37px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: -30px;
+}
+.footer-linkkk a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-linkk a {
+  color: #fff;
+  text-decoration: none;
+}
+.link-2 {
+  margin-left: 250px;
+  margin-top: -147px;
+}
+.icon-link {
+  list-style-type: none;
+  margin-top: -115px;
+  margin-left: -30px;
+  width: 40px;
+  height: 150px;
+}
+.icon-linkk {
+  list-style-type: none;
+  margin-top: -110px;
+  margin-left: -30px;
+  width: 40px;
+  height: 150px;
+}
+.icon-linkkk {
+  list-style-type: none;
+  margin-top: -110px;
+  margin-left: -25px;
+  width: 40px;
+  height: 150px;
+}
+.link-3 {
+  margin-left: 570px;
+  margin-top: -257px;
+}
+
+/* footer end */
